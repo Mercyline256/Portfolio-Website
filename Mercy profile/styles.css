@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    .Nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: rgb(161, 57, 153);
+    color: white;
+    padding: 2rem 4rem;
+    }
+    .Nav-bar>h1{
+    font-size: 30px;
+    color: black;
+    }
+    .link{
+    display: flex;
+    gap: 2rem;
+    }
+    .link> a{
+        text-decoration: none;
+        color: rgb(15, 4, 163);
+        font-size: 30px;
+        cursor: grab;
+    }
+    .about{
+        min-height: 45rem;
+        background-color:rgb(228, 198, 228)
+      
+    }
+    .image{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    padding-top: 5rem;
+    margin-right: auto;
+    }
+    .image>img{
+        width: 600px;
+        height: 600px;
+        margin-left: 3rem;
+    }
+    .description{
+        width: 100%;
+    }
+    .description>h1{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    color: blue;
+    font-weight: bold;
+    font-size: 2.5rem
+    }
+    .description>p{
+        font-size: 1.5rem;
+        font-style: inherit;
+        display: flex;
+        padding: 3rem;
+        
+    }
+    .resume > h1{
+        text-align: center;
+        font-size: 3rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        color: rgb(30, 9, 224);
+    }
+    
+    .resume-cont{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        background-color:rgb(228, 198, 228)
+    }
+    .resume-item{
+        width: 100%;
+        font-size: 1.5rem;
+        background-color:rgb(228, 198, 228)
+      
+    }
+    
+    .resume-cont > h1{
+        text-decoration:underline;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 2rem;
+        color: rgb(226, 25, 199);
+    }
+    .contacts{
+        width: 80%;
+        margin: auto;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    }
+    
+    .contacts > h1{
+        text-align: center;
+        font-size: 3rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        color: rgb(9, 13, 233);
+    }
+    
+    .contacts > form > label{
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+    
+    .contacts > form > input{
+        width: 30%;
+        padding: 10px;
+    }
+    
+    .contacts > form > textarea{
+        width: 30%;
+        padding: 10px;
+    }
+    
+    .sendMessage{
+        color: black;
+        border: 1px solid black;
+        padding: 0.8rem 3.5rem;
+        cursor: pointer;
+    
+    }
+    .footer{
+        color: brown;
+       font-size: 1.5rem;
+    }
